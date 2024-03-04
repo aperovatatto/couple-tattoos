@@ -19,13 +19,14 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow to content area */
         }
         .container img {
-            width: 800px; /* Set a fixed width for all images */
+            max-width: 100%; /* Make images responsive */
             height: auto; /* Maintain aspect ratio */
-            display: inline-block; /* Ensure the image behaves as an inline-block element */
-            margin: 20px; /* Add some margin around each image */
+            display: block; /* Change to block to prevent extra space */
+            margin: 10px auto; /* Adjust margin */
         }
         .container h1 {
-            margin-left: 20px; /* Move the header 10 pixels to the right */
+            text-align: center; /* Center align header */
+            margin: 20px 0; /* Adjust margin */
         }
     </style>
 </head>
